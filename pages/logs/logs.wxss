@@ -1,0 +1,15 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+
+page{
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513932121741&di=be503886ea89bca4efbfc03080e40af5&imgtype=0&src=http%3A%2F%2Fimg17.3lian.com%2F201612%2F19%2Fd00b021b41cbf40afc6aa4960d4250c7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+}

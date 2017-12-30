@@ -1,0 +1,4 @@
+<!--pages/givei/givei.wxml-->
+  <input class="input" text placeholder="你想寻找..."
+ bindinput="messageInput" />
+ <button class="qiandao" bindtap="givei">发布</button>

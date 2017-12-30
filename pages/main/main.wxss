@@ -1,0 +1,39 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 0px;
+}
+
+.meiri{
+  top:60%;
+}
+.mess{
+  top:70%;
+}
+.viewName{
+   width:70%;
+  padding: 10px 15% 15px 15%;
+}
+
+page{
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513619114554&di=8a894e23b9f8d0e5dd696e248140bcad&imgtype=0&src=http%3A%2F%2Fwapfile.desktx.com%2F7681280%2F1208%2F161208w2jxvoqy4oa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+}

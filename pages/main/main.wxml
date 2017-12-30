@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+<view class="mingyan"style="opacity:{{0.5}};background-color:#fbf9fe">
+ 今日名言是：<text>{{mymotto}}</text>
+</view>
+<view class="message"style="opacity:{{0.5}};background-color:#fbf9fe">
+<view class="meiri">
+每日留言：
+</view>
+<view class="mess">
+ <input class="input" text placeholder="今日你想说..."
+ bindinput="messageInput" />
+ </view>
+ </view>
+ <view class="viewName" >
+ <button class="qiandao" bindtap="qiandao">签到</button>
+<button class="qiandao" bindtap="more">更多</button>
+</view>

@@ -1,0 +1,21 @@
+.xuehao{
+  padding: 10px 5px 15px 15%;
+}
+.mima{
+  padding: 10px 5px 15px 15%;
+}
+.den{
+  width: 70%;
+  padding: 10px 5px 15px 15%;
+}
+.zhu{
+  width:70%;
+  padding: 10px 5px 15px 15%;
+}
+
+page{
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513619300849&di=a25b16f3d09dac00c7253beaef2fd314&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fblog%2F201410%2F22%2F20141022173017_dHwEd.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+}

@@ -1,0 +1,14 @@
+ <view class="xuehao"style="opacity:{{0.5}};background-color:#fbf9fe">学号：
+ <input class="input" text placeholder="请输入学号"
+ bindinput="xuehaoinput" />
+ </view>
+  <view class="mima"style="opacity:{{0.5}};background-color:#fbf9fe">密码：
+ <input class="input" password placeholder="请输入密码"
+ bindinput="mimainput" />
+ </view>
+<view class="den">
+ <button bindtap="toSignIn1">登录</button>
+ </view>
+ <view class="zhu">
+<button bindtap="toSignUp">注册</button>
+</view>

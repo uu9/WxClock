@@ -1,0 +1,7 @@
+<!--pages/lookforFriends/lookforFriends.wxml-->
+<view class="container log-list">
+  <block wx:for="{{a}}">
+    <text class="log-item">{{index + 1}}、{{a[index]}}\n{{words[index]}}</text>
+  </block>
+</view>
+<button class="a" bindtap="more">发布招募信息</button>
